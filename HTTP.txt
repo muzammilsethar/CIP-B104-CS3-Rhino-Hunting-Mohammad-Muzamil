@@ -1,0 +1,39 @@
+Extracted Traffic & HTTP Request Log Summary
+1. Log File: rhino.log
+Request Method & Host: GET / HTTP/1.1 | Host: [www.google.com](https://www.google.com)
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+
+Cookie / Session: PREF=ID=269e53562e69c3c5:TM=1082665356:LM=1082665356:S=7wPr3EtOMR5TKuHE
+
+Response Status: HTTP/1.1 200 OK
+
+Timestamp: Mon, 26 Apr 2004 22:18:40 GMT
+
+Payload Details: Content-length: 2931 (Google 2004 Classic HTML Homepage structure with /images/logo.gif reference).
+
+2. Log File: rhino2.log
+Request Method & Host: GET / HTTP/1.1 | Host: [www.google.com](https://www.google.com)
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+
+Cookie / Session: PREF=ID=269e53562e69c3c5:TM=1082665356:LM=1083170916:TB=3:S=53_bmTwAwjyv1FxO
+
+Response Status: HTTP/1.1 200 OK
+
+Timestamp: Wed, 28 Apr 2004 21:08:29 GMT
+
+Payload Details: Content-length: 2931 (Cached/Private connection tracking Google search interface response).
+
+3. Log File: rhino3.log
+Request Method & Host: GET / HTTP/1.1 | Host: [www.google.com](https://www.google.com)
+
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+
+Cookie / Session: PREF=ID=269e53562e69c3c5:TM=1082665356:LM=1083170916:TB=3:S=53_bmTwAwjyv1FxO
+
+Response Status: HTTP/1.1 200 OK
+
+Timestamp: Wed, 28 Apr 2004 21:15:40 GMT
+
+Payload Details: Content-length: 2931 (Subsequent browser session check returning Google search index with standard footer metrics).

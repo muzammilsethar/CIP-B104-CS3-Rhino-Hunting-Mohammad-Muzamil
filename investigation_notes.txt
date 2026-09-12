@@ -1,0 +1,7 @@
+Working Notes - CIP-B104 Case Study
+Analyst: Mohammad Muzamil
+
+- Phase 1: Verified original evidence files (RHINOUSB.dd, rhino.log, rhino2.log, rhino3.log) and generated SHA256 hashes via CMD using certutil.
+- Phase 2: Loaded RHINOUSB.dd into Exterro FTK Imager; identified FAT16 file system structure.
+- Phase 3: Exported unallocated space clusters (00004, 25604, 51204) to the 'recovered' directory for artifact carving.
+- Phase 4: Reviewed proxy and HTTP logs for historical web traffic timeline analysis (April 2004).
